@@ -4,6 +4,10 @@ An open-source, ML-driven funding-rate arbitrage system that predicts future fun
 
 This strategy can **add liquidity** to the market by taking the *unfavorable* side of crowded trades (e.g., receiving funding when others pay it) while **hedging price risk away** via spot/perp neutrality.
 
+## Research paper
+
+- 📄 **Full write-up:** [Funding Arbitrage ML — Research Paper (Google Doc)](https://docs.google.com/document/d/1ePPcR-LVONs9L7LhtWn2bNvtMXEiyIpg/edit)
+
 ## What it does
 
 - **Trains an ML model** (GradientBoostingRegressor) on hourly funding/premium data
