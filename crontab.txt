@@ -1,0 +1,8 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Hourly funding update
+0 * * * * cd /app && python -m app.main_hourly_funding >> /var/log/hourly_funding.log 2>&1
+
+# Rebalance on the 3rd, 13th, and 23rd of each month at 00:05
+5 0 3,13,23 * * cd /app && python -m app.main_rebalance >> /var/log/rebalance.log 2>&1

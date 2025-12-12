@@ -1,0 +1,10 @@
+pandas
+requests
+boto3
+python-dotenv
+ccxt
+numpy
+scikit-learn
+matplotlib
+joblib
+dotenv

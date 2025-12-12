@@ -1,0 +1,18 @@
+{
+  "featureCols": [
+    "funding_avg_2d",
+    "funding_avg_6d",
+    "funding_avg_18d",
+    "premium_avg_2d",
+    "premium_avg_6d",
+    "premium_avg_18d",
+    "coin_BTC",
+    "coin_DOGE",
+    "coin_ETH",
+    "coin_SOL",
+    "coin_kPEPE"
+  ],
+  "targetCol": "future_funding_10d_mean",
+  "bestIter": 148,
+  "trained_at_utc": "2025-12-12T09:26:49.968099Z"
+}
